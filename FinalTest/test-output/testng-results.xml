@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-12T18:03:30Z" name="Default suite" finished-at="2022-11-12T18:06:23Z" duration-ms="172757">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.Runner@1e53135d]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-11-12T18:03:30Z" name="Default test" finished-at="2022-11-12T18:06:23Z" duration-ms="172757">
+      <class name="Runner.Runner">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Runner.Runner@1e53135d]" started-at="2022-11-12T18:03:27Z" name="setup" finished-at="2022-11-12T18:03:30Z" duration-ms="3610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Runner.Runner@1e53135d]" started-at="2022-11-12T18:03:30Z" name="setUpClass" finished-at="2022-11-12T18:03:31Z" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Runner.Runner@1e53135d]" started-at="2022-11-12T18:03:31Z" name="startTest" finished-at="2022-11-12T18:03:31Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cucumber.api.testng.AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.Runner@1e53135d]" started-at="2022-11-12T18:03:31Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-11-12T18:04:33Z" duration-ms="62479" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test the feature of the Animation tab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="atestCaseResult(org.testng.ITestResult)[pri:0, instance:Runner.Runner@1e53135d]" started-at="2022-11-12T18:04:33Z" name="atestCaseResult" finished-at="2022-11-12T18:04:33Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=feature status=SUCCESS method=AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.Runner@1e53135d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atestCaseResult -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Runner.Runner@1e53135d]" started-at="2022-11-12T18:04:33Z" name="endTest" finished-at="2022-11-12T18:04:33Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Runner.Runner@1e53135d]" started-at="2022-11-12T18:04:33Z" name="startTest" finished-at="2022-11-12T18:04:33Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cucumber.api.testng.AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.Runner@1e53135d]" started-at="2022-11-12T18:04:33Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-11-12T18:05:30Z" duration-ms="56292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test the feature of the Graphic tab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="atestCaseResult(org.testng.ITestResult)[pri:0, instance:Runner.Runner@1e53135d]" started-at="2022-11-12T18:05:30Z" name="atestCaseResult" finished-at="2022-11-12T18:05:30Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=feature status=SUCCESS method=AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.Runner@1e53135d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atestCaseResult -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Runner.Runner@1e53135d]" started-at="2022-11-12T18:05:30Z" name="endTest" finished-at="2022-11-12T18:05:30Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Runner.Runner@1e53135d]" started-at="2022-11-12T18:05:30Z" name="startTest" finished-at="2022-11-12T18:05:30Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cucumber.api.testng.AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.Runner@1e53135d]" started-at="2022-11-12T18:05:30Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-11-12T18:06:23Z" duration-ms="53707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test the feature of the Media tab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="atestCaseResult(org.testng.ITestResult)[pri:0, instance:Runner.Runner@1e53135d]" started-at="2022-11-12T18:06:23Z" name="atestCaseResult" finished-at="2022-11-12T18:06:23Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=feature status=SUCCESS method=AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.Runner@1e53135d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atestCaseResult -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Runner.Runner@1e53135d]" started-at="2022-11-12T18:06:23Z" name="endTest" finished-at="2022-11-12T18:06:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.Runner@1e53135d]" started-at="2022-11-12T18:06:23Z" name="tearDownClass" finished-at="2022-11-12T18:06:23Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Runner.Runner@1e53135d]" started-at="2022-11-12T18:06:23Z" name="Teardown" finished-at="2022-11-12T18:06:24Z" duration-ms="692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- Runner.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
